@@ -1,0 +1,700 @@
+body{
+width: 100vw;
+overflow-x: hidden;
+position:absolute;
+background-image: url("../img/fonfon.png");
+background-size: 100%;
+}
+
+.ecran1 {
+position: absolute;
+width: 100%;
+height: 40vw;
+}
+
+.spectre-word {
+position: absolute;
+inset: 0;
+z-index: 2;
+}
+
+.hero-letter {
+position: absolute;
+object-fit: cover;
+cursor: pointer;
+transition: top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+z-index: 2;
+}
+
+.bukvas {
+width: 6.42vw;
+height: 9.1vw;
+left: 4.17vw;
+top: 4vw;
+}
+
+.bukvap {
+width: 7.5vw;
+height: 8.89vw;
+left: 12.5vw;
+top: 7vw;
+}
+
+.bukvae1 {
+width: 6.65vw;
+height: 8.89vw;
+left: 22vw;
+top: 10vw;
+}
+
+.bukvac {
+width: 7.2vw;
+height: 8.89vw;
+left: 31vw;
+top: 13vw;
+}
+
+.bukvat {
+width: 6.7vw;
+height: 8.89vw;
+left: 41vw;
+top: 16vw;
+}
+
+.bukvar {
+width: 7.6vw;
+height: 8.89vw;
+left: 50.5vw;
+top: 19vw;
+}
+
+.bukvae2 {
+width: 6.65vw;
+height: 8.89vw;
+left: 60vw;
+top: 22vw;
+}
+
+.spectre-word:hover .bukvas,
+.spectre-word:hover .bukvae1,
+.spectre-word:hover .bukvac,
+.spectre-word:hover .bukvat,
+.spectre-word:hover .bukvar,
+.spectre-word:hover .bukvae2,
+.ecran1:hover .bukvas,
+.ecran1:hover .bukvae1,
+.ecran1:hover .bukvac,
+.ecran1:hover .bukvat,
+.ecran1:hover .bukvar,
+.ecran1:hover .bukvae2,
+.bukvas:hover,
+.bukvae1:hover,
+.bukvac:hover,
+.bukvat:hover,
+.bukvar:hover,
+.spectre-word:hover .bukvae2 {
+top: 7vw;
+}
+
+.star1 {
+width: 5vw;
+height: 5vw;
+top: 4vw;
+left: 84vw;
+object-fit: cover;
+position: absolute;
+animation: rotateStar 4s linear infinite;
+z-index: 1;
+}
+
+.zvezda2 {
+width: 4vw;
+height: 4vw;
+top: 30vw;
+left: 26vw;
+object-fit: cover;
+position: absolute;
+animation: blinkStar 2s ease-in-out infinite alternate;
+z-index: 1;
+}
+
+.zvezda1 {
+width: 6vw;
+height: 6vw;
+top: 23vw;
+left: 14vw;
+object-fit: cover;
+position: absolute;
+animation: blinkStar 1.5s ease-in-out infinite alternate;
+z-index: 1;
+}
+
+.zvezda3 {
+width: 4vw;
+height: 4vw;
+top: 10vw;
+left: 92vw;
+object-fit: cover;
+position: absolute;
+animation: rotateStar 3s linear infinite;
+z-index: 1;
+}
+
+@keyframes rotateStar {
+from {
+transform: rotate(0deg);
+}
+to {
+transform: rotate(360deg);
+} }
+
+@keyframes blinkStar {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+
+.ecran2 {
+position: absolute;
+width: 100%;
+height: 95.5vw
+}
+
+.ecrstar1 {
+width: 100vw;
+height: 85vw;
+top: 46vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.beg {
+    width: 130vw;
+    height: 90vw;
+    top: 43vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.zvizdi {
+width: 100vw;
+height: 85vw;
+top: 46vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+z-index: 200;
+}
+
+.nastroy {
+width: 25vw;
+height: 6vw;
+top: 64vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.textkk,
+.textrh,
+.textpf {
+width: auto;
+height: 3vw;
+top: 95.5vw;
+left: 50%;
+transform: translateX(-50%);
+position: absolute;
+z-index: 10;
+}
+
+.proigr {
+width: 50vw;
+height: 40vw;
+top: 70vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.zvizdi {
+    width: 3vw;
+    height: 3vw;
+    top: 76vw;
+    left: 37vw;
+    object-fit: cover;
+position: absolute;
+}
+
+.plast1 {
+width: 17vw;
+height: 17vw;
+top: 100vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+animation: slowSpin 8s linear infinite;
+}
+
+@keyframes slowSpin {
+from {
+transform: translateX(-50%) rotate(0deg);
+}
+to {
+transform: translateX(-50%) rotate(360deg);
+}
+}
+
+.plast2 {
+width: 15vw;
+height: 15vw;
+top: 98vw;
+left: 18.5vw;
+object-fit: cover;
+position: absolute;
+}
+
+.plast3 {
+width: 15vw;
+height: 15vw;
+top: 98vw;
+left: 66vw;
+object-fit: cover;
+position: absolute;
+}
+
+.treugp {
+width: 7vw;
+height: 7vw;
+top: 105vw;
+left: 58.5vw;
+object-fit: cover;
+position: absolute;
+}
+
+.treugp, .treugl {
+cursor: pointer;
+transition: transform 0.2s ease;
+}
+
+.treugp:hover, .treugl:hover {
+transform: scale(1.1);
+}
+
+.treugp:active, .treugl:active {
+transform: scale(0.95);
+}
+
+
+.treugl {
+width: 7vw;
+height: 7vw;
+top: 105vw;
+left: 34.5vw;
+object-fit: cover;
+position: absolute;
+z-index: 1;
+}
+
+.ecran3 {
+position: absolute;
+width: 100%;
+height: 58vw
+}
+
+.textsint {
+width: 39vw;
+height: 6vw;
+top: 160vw;
+left: 5vw;
+object-fit: cover;
+position: absolute;
+}
+
+.povtori {
+width: 24vw;
+height: 3vw;
+top: 170vw;
+left: 5vw;
+object-fit: cover;
+position: absolute;
+pointer-events: none;
+z-index: 1;
+}
+
+.sint {
+width: 80vw;
+height: 59vw;
+top: 150vw;
+left: 40vw;
+object-fit: cover;
+position: absolute;
+z-index: 0;
+}
+
+.knopka1 {
+width: 4vw;
+height: 4vw;
+left: 80vw;
+top: 154.5vw;
+object-fit: cover;
+position: absolute;
+z-index: 10;
+}
+
+.piano1 {
+width: 99vw;
+height: 65vw;
+top: 140vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+z-index: 3;
+}
+
+.klava1 {
+width: 4vw;
+height: 14.5vw;
+top: 160vw;
+left: 35.5vw;
+object-fit: cover;
+position: absolute;
+z-index: 4;
+}
+
+.klava2 {
+width: 4vw;
+height: 25vw;
+top: 160vw;
+left: 60.5vw;
+object-fit: cover;
+position: absolute;
+z-index: 4;
+}
+
+.klava3 {
+width: 4vw;
+height: 25vw;
+top: 160vw;
+left: 27vw;
+object-fit: cover;
+position: absolute;
+z-index: 4;
+}
+
+.klava4 {
+width: 4vw;
+height: 25vw;
+top: 160vw;
+left: 54.5vw;
+object-fit: cover;
+position: absolute;
+z-index: 4;
+}
+
+.piano2 {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 140vw;
+object-fit: cover;
+position: absolute;
+z-index: 3;
+}
+
+.piano3 {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 140vw;
+object-fit: cover;
+position: absolute;
+z-index: 3;
+}
+
+.piano4 {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 140vw;
+object-fit: cover;
+position: absolute;
+z-index: 3;
+}
+
+.piano5 {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 140vw;
+object-fit: cover;
+position: absolute;
+z-index: 3;
+}
+
+.uspeh1 {
+width: 57.5vw;
+height: 36vw;
+left: 50%;
+transform: translateX(-50%);
+top: 155vw;
+object-fit: cover;
+position: absolute;
+z-index: 5;
+}
+
+.starsint {
+width: 4vw;
+height: 4vw;
+left: 78vw;
+top: 156vw;
+object-fit: cover;
+position: absolute;
+}
+
+.salfetka {
+width: 100vw;
+height: 75vw;
+top: 203vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.krug {
+width: 100vw;
+height: 80vw;
+top: 250vw;
+left: 50%;
+transform: translateX(-50%);
+object-fit: cover;
+position: absolute;
+}
+
+.tarelka {
+width: 68vw;
+height: 41vw;
+top: 235vw;
+left: -10vw;
+object-fit: cover;
+position: absolute;
+}
+
+.pec12 {
+width: 32vw;
+height: 22vw;
+top: 248vw;
+left: -7vw;
+object-fit: cover;
+position: absolute;
+}
+
+.pec22 {
+width: 32vw;
+height: 25vw;
+top: 233vw;
+left: 8vw;
+object-fit: cover;
+position: absolute;
+}
+
+.pec31 {
+width: 37vw;
+height: 25w;
+top: 248vw;
+left: 18vw;
+object-fit: cover;
+position: absolute;
+animation: glowPec31 2s ease-in-out infinite alternate;
+cursor: pointer;
+}
+
+.pec32 {
+width: 37vw;
+height: 25w;
+top: 248vw;
+left: 18vw;
+object-fit: cover;
+position: absolute;
+}
+
+.napolnite {
+width: 39vw;
+height: 6vw;
+top: 225vw;
+left: 50vw;
+object-fit: cover;
+position: absolute;
+}
+
+.knopka2 {
+width: 4vw;
+height: 4vw;
+left: 83vw;
+top: 227.2vw;
+object-fit: cover;
+position: absolute;
+z-index: 40;
+}
+
+.instrum {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 217vw;
+object-fit: cover;
+position: absolute;
+z-index: 20;
+}
+
+.uspeh2 {
+width: 99vw;
+height: 65vw;
+left: 50%;
+transform: translateX(-50%);
+top: 217vw;
+object-fit: cover;
+position: absolute;
+z-index: 20;
+}
+
+.skripka {
+width: 12.55vw;
+height: 4vw;
+left: 24vw;
+top: 265vw;
+object-fit: cover;
+position: absolute;
+z-index: 21;
+cursor: pointer;
+transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease;
+}
+
+.gitara {
+width: 12.55vw;
+height: 4vw;
+left: 50%;
+transform: translateX(-50%);
+top: 265vw;
+object-fit: cover;
+position: absolute;
+z-index: 21;
+cursor: pointer;
+transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease;
+}
+
+.fleyta {
+width: 12.55vw;
+height: 4vw;
+left: 63vw;
+top: 265vw;
+object-fit: cover;
+position: absolute;
+z-index: 21;
+cursor: pointer;
+transition: transform 0.15s ease, filter 0.15s ease, opacity 0.15s ease;
+}
+
+.skripka:hover,
+.gitara:hover,
+.fleyta:hover {
+filter: drop-shadow(0 0 0.8vw rgba(255, 255, 255, 0.8));
+}
+
+.skripka:active,
+.gitara:active,
+.fleyta:active {
+transform: scale(0.95);
+opacity: 0.85;
+}
+
+.uspeh2 {
+z-index: 30;
+}
+
+@keyframes glowPec31 {
+from {
+opacity: 0.5;
+}
+to {
+opacity: 1;
+}
+}
+
+.skolko {
+width: 45vw;
+height: 7vw;
+left: 50vw;
+top: 280vw;
+object-fit: cover;
+position: absolute;
+z-index: 21;
+cursor: pointer;
+transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.skolko:hover {
+filter: drop-shadow(0 0 1vw rgba(255, 255, 255, 0.9));
+transform: scale(1.03);
+}
+
+.podval {
+position: absolute;
+width: 100%;
+height: 35vw;
+}
+
+.kuratory {
+width: 58.33vw;
+height: 30vwvw;
+top: 295vw;
+left: 0vw;
+object-fit: cover;
+position: absolute;
+}
+
+.student {
+width: 44vw;
+height: 32vw;
+top: 298vw;
+left: 56vw;
+object-fit: cover;
+position: absolute;
+}
+
+.kamila {
+width: 30vw;
+height: 15vw;
+top: 313vw;
+left: 3vw;
+object-fit: cover;
+position: absolute;
+z-index: 100;
+}
+
+.aloha {
+width: 34vw;
+height: 20vw;
+top: 310.5vw;
+left: 62vw;
+object-fit: cover;
+position: absolute;
+z-index: 100;
+}
